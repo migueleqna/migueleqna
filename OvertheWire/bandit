@@ -1,0 +1,14 @@
+0 - bandit0
+1 - NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+2 - rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+3 - aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+ls -la 
+4 - 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+file ./-file*
+5 - lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+cd <dir>
+file */{.,}* | grep "ASCII text" | grep -v ', very long lines'  
+du -b -a | grep 1033
+find . -type f -size 1033c ! -executable -exec file '{}' | grep ASCII
+ind . -type f -size 1033c ! -executable -exec file '{}' \; | grep ASCII
+
